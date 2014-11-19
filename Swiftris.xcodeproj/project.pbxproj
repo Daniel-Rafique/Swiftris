@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		618E9C9E19F3E0B0006324A4 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9C9D19F3E0B0006324A4 /* Block.swift */; };
+		618E9CA019F3E137006324A4 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9C9F19F3E137006324A4 /* Shape.swift */; };
+		618E9CA219F3E2C1006324A4 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CA119F3E2C1006324A4 /* SquareShape.swift */; };
+		618E9CA419F3E327006324A4 /* Tshape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CA319F3E327006324A4 /* Tshape.swift */; };
+		618E9CA619F3E349006324A4 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CA519F3E349006324A4 /* LineShape.swift */; };
+		618E9CA819F3E372006324A4 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CA719F3E372006324A4 /* LShape.swift */; };
+		618E9CAA19F3E393006324A4 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CA919F3E393006324A4 /* JShape.swift */; };
+		618E9CAC19F3E3B0006324A4 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CAB19F3E3B0006324A4 /* SShape.swift */; };
+		618E9CAE19F3E3D4006324A4 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CAD19F3E3D4006324A4 /* ZShape.swift */; };
+		618E9CB019F3ED61006324A4 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E9CAF19F3ED61006324A4 /* Swiftris.swift */; };
 		61912D1019F2DA760065F79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61912D0F19F2DA760065F79B /* AppDelegate.swift */; };
-		61912D1219F2DA760065F79B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 61912D1119F2DA760065F79B /* GameScene.sks */; };
 		61912D1419F2DA760065F79B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61912D1319F2DA760065F79B /* GameScene.swift */; };
 		61912D1619F2DA760065F79B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61912D1519F2DA760065F79B /* GameViewController.swift */; };
 		61912D1919F2DA760065F79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61912D1719F2DA760065F79B /* Main.storyboard */; };
 		61912D1B19F2DA770065F79B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61912D1A19F2DA770065F79B /* Images.xcassets */; };
 		61912D1E19F2DA770065F79B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61912D1C19F2DA770065F79B /* LaunchScreen.xib */; };
 		61912D2A19F2DA770065F79B /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61912D2919F2DA770065F79B /* SwiftrisTests.swift */; };
+		61912D3419F2E3B10065F79B /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3319F2E3B10065F79B /* Sounds */; };
+		61912D3619F2E3EF0065F79B /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3519F2E3EF0065F79B /* Sprites.atlas */; };
+		61912D3D19F2E40F0065F79B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3719F2E40F0065F79B /* background.png */; };
+		61912D3E19F2E40F0065F79B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3819F2E40F0065F79B /* background@2x.png */; };
+		61912D3F19F2E40F0065F79B /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3919F2E40F0065F79B /* gameboard.png */; };
+		61912D4019F2E40F0065F79B /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3A19F2E40F0065F79B /* gameboard@2x.png */; };
+		61912D4119F2E40F0065F79B /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3B19F2E40F0065F79B /* whitebg.png */; };
+		61912D4219F2E40F0065F79B /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61912D3C19F2E40F0065F79B /* whitebg@2x.png */; };
+		61912D4419F2EFA20065F79B /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61912D4319F2EFA20065F79B /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		618E9C9D19F3E0B0006324A4 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		618E9C9F19F3E137006324A4 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		618E9CA119F3E2C1006324A4 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		618E9CA319F3E327006324A4 /* Tshape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tshape.swift; sourceTree = "<group>"; };
+		618E9CA519F3E349006324A4 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		618E9CA719F3E372006324A4 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		618E9CA919F3E393006324A4 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		618E9CAB19F3E3B0006324A4 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		618E9CAD19F3E3D4006324A4 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		618E9CAF19F3ED61006324A4 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		61912D0A19F2DA760065F79B /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61912D0E19F2DA760065F79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61912D0F19F2DA760065F79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61912D1119F2DA760065F79B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		61912D1319F2DA760065F79B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		61912D1519F2DA760065F79B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		61912D1819F2DA760065F79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +67,15 @@
 		61912D2319F2DA770065F79B /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61912D2819F2DA770065F79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61912D2919F2DA770065F79B /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		61912D3319F2E3B10065F79B /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		61912D3519F2E3EF0065F79B /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		61912D3719F2E40F0065F79B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		61912D3819F2E40F0065F79B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		61912D3919F2E40F0065F79B /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		61912D3A19F2E40F0065F79B /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		61912D3B19F2E40F0065F79B /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
+		61912D3C19F2E40F0065F79B /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		61912D4319F2EFA20065F79B /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +118,25 @@
 			isa = PBXGroup;
 			children = (
 				61912D0F19F2DA760065F79B /* AppDelegate.swift */,
-				61912D1119F2DA760065F79B /* GameScene.sks */,
 				61912D1319F2DA760065F79B /* GameScene.swift */,
 				61912D1519F2DA760065F79B /* GameViewController.swift */,
+				61912D3519F2E3EF0065F79B /* Sprites.atlas */,
 				61912D1719F2DA760065F79B /* Main.storyboard */,
 				61912D1A19F2DA770065F79B /* Images.xcassets */,
+				61912D3319F2E3B10065F79B /* Sounds */,
 				61912D1C19F2DA770065F79B /* LaunchScreen.xib */,
 				61912D0D19F2DA760065F79B /* Supporting Files */,
+				61912D4319F2EFA20065F79B /* Array2D.swift */,
+				618E9C9D19F3E0B0006324A4 /* Block.swift */,
+				618E9C9F19F3E137006324A4 /* Shape.swift */,
+				618E9CA119F3E2C1006324A4 /* SquareShape.swift */,
+				618E9CA319F3E327006324A4 /* Tshape.swift */,
+				618E9CA519F3E349006324A4 /* LineShape.swift */,
+				618E9CA719F3E372006324A4 /* LShape.swift */,
+				618E9CA919F3E393006324A4 /* JShape.swift */,
+				618E9CAB19F3E3B0006324A4 /* SShape.swift */,
+				618E9CAD19F3E3D4006324A4 /* ZShape.swift */,
+				618E9CAF19F3ED61006324A4 /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -96,6 +144,12 @@
 		61912D0D19F2DA760065F79B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61912D3719F2E40F0065F79B /* background.png */,
+				61912D3819F2E40F0065F79B /* background@2x.png */,
+				61912D3919F2E40F0065F79B /* gameboard.png */,
+				61912D3A19F2E40F0065F79B /* gameboard@2x.png */,
+				61912D3B19F2E40F0065F79B /* whitebg.png */,
+				61912D3C19F2E40F0065F79B /* whitebg@2x.png */,
 				61912D0E19F2DA760065F79B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -167,6 +221,7 @@
 				TargetAttributes = {
 					61912D0919F2DA760065F79B = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 7CK3SVJ5R6;
 					};
 					61912D2219F2DA770065F79B = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -198,10 +253,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61912D4019F2E40F0065F79B /* gameboard@2x.png in Resources */,
 				61912D1E19F2DA770065F79B /* LaunchScreen.xib in Resources */,
+				61912D3D19F2E40F0065F79B /* background.png in Resources */,
+				61912D3F19F2E40F0065F79B /* gameboard.png in Resources */,
 				61912D1B19F2DA770065F79B /* Images.xcassets in Resources */,
-				61912D1219F2DA760065F79B /* GameScene.sks in Resources */,
+				61912D3E19F2E40F0065F79B /* background@2x.png in Resources */,
+				61912D3419F2E3B10065F79B /* Sounds in Resources */,
 				61912D1919F2DA760065F79B /* Main.storyboard in Resources */,
+				61912D4119F2E40F0065F79B /* whitebg.png in Resources */,
+				61912D4219F2E40F0065F79B /* whitebg@2x.png in Resources */,
+				61912D3619F2E3EF0065F79B /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +281,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618E9CA819F3E372006324A4 /* LShape.swift in Sources */,
+				618E9CA219F3E2C1006324A4 /* SquareShape.swift in Sources */,
 				61912D1419F2DA760065F79B /* GameScene.swift in Sources */,
+				618E9CAA19F3E393006324A4 /* JShape.swift in Sources */,
+				618E9CB019F3ED61006324A4 /* Swiftris.swift in Sources */,
+				618E9CA019F3E137006324A4 /* Shape.swift in Sources */,
+				61912D4419F2EFA20065F79B /* Array2D.swift in Sources */,
+				618E9CA619F3E349006324A4 /* LineShape.swift in Sources */,
+				618E9CAC19F3E3B0006324A4 /* SShape.swift in Sources */,
+				618E9CA419F3E327006324A4 /* Tshape.swift in Sources */,
+				618E9C9E19F3E0B0006324A4 /* Block.swift in Sources */,
 				61912D1619F2DA760065F79B /* GameViewController.swift in Sources */,
+				618E9CAE19F3E3D4006324A4 /* ZShape.swift in Sources */,
 				61912D1019F2DA760065F79B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,9 +417,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -354,9 +430,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -413,6 +492,7 @@
 				61912D2F19F2DA770065F79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61912D3019F2DA770065F79B /* Build configuration list for PBXNativeTarget "SwiftrisTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +501,7 @@
 				61912D3219F2DA770065F79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
